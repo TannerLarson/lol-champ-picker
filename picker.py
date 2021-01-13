@@ -1,14 +1,11 @@
-import sys
-from PySide2.QtWidgets import QApplication, QLabel
+from PySide6.QtWidgets import QApplication
+from PySide6.QtQuick import QQuickView
+from PySide6.QtCore import QUrl
 
+app = QApplication([])
+view = QQuickView()
+url = QUrl("view.qml")
 
-def main():
-    app = QApplication(sys.argv)
-    # label = QLabel("Hello world")
-    label = QLabel("<font color=red size=40>Hello World!</font>")
-    label.show()
-    app.exec_()
-
-
-if __name__ == "__main__":
-    main()
+view.setSource(url)
+view.show()
+app.exec_()
