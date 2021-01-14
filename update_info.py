@@ -10,16 +10,6 @@ def main():
     champions_json = json.loads(champions_file)
     champ_dict = make_nice_dictionary_by_name(champions_json)
     champions_organized_json = json.dumps(champ_dict)
-
-    list = []
-    for champ_name in champ_dict:
-        list.append(champ_name)
-        # if "Tank" in champ_dict[champ_name]['tags'] or "Fighter" in champ_dict[champ_name]['tags']:
-        #   list.append(champ_name)
-    dict = {}
-    dict['top'] = list
-    print(json.dumps(dict))
-
     export_dictionary(champions_organized_json, "champions-dict.json")
 
 
@@ -43,28 +33,6 @@ def make_nice_dictionary_by_name(champions):
             'description': champion['description']
         }
     return nice_dict
-
-
-def make_dictionary_by_lane(champions):
-    nice_dict = {
-        "Top": [],
-        "Mid": [],
-        "Jungle": [],
-        "ADC": [],
-        "Support": []
-    }
-    for champion in champions:
-        if "Top" in champion['positions']:
-            nice_dict["Top"].append(champion['id'])
-        if "Mid" in champion['positions']:
-            nice_dict["Mid"].append(champion['id'])
-        if "Jungle" in champion['positions']:
-            nice_dict["Jungle"].append(champion['id'])
-        if "ADC" in champion['positions']:
-            nice_dict["ADC"].append(champion['id'])
-        if "Support" in champion['positions']:
-            nice_dict["Support"].append(champion['id'])
-        return nice_dict
 
 
 if __name__ == "__main__":
