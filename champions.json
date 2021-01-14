@@ -1,6 +1,6 @@
 [
   {
-    "link": "//https://raw.githubusercontent.com/ngryman/lol-champions/master/champions.json",
+    "Link": "https://github.com/ngryman/lol-champions/blob/master/champions.json",
     "id": "aatrox",
     "key": "266",
     "name": "Aatrox",
@@ -8,10 +8,6 @@
     "tags": [
       "Fighter",
       "Tank"
-    ],
-    "positions": [
-      "Top",
-      "Mid"
     ],
     "stats": {
       "hp": 580,
@@ -50,12 +46,7 @@
     "title": "the Nine-Tailed Fox",
     "tags": [
       "Mage",
-      "Assassin",
-      "Support"
-    ],
-    "positions": [
-      "Mid",
-      "Support"
+      "Assassin"
     ],
     "stats": {
       "hp": 526,
@@ -94,10 +85,6 @@
     "title": "the Rogue Assassin",
     "tags": [
       "Assassin"
-    ],
-    "positions": [
-      "Mid",
-      "Top"
     ],
     "stats": {
       "hp": 575,
@@ -138,7 +125,6 @@
       "Tank",
       "Support"
     ],
-    "positions": "Support",
     "stats": {
       "hp": 600,
       "hpperlevel": 106,
@@ -177,9 +163,6 @@
     "tags": [
       "Tank",
       "Mage"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 615,
@@ -220,10 +203,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Mid",
-      "Support"
-    ],
     "stats": {
       "hp": 480,
       "hpperlevel": 82,
@@ -260,12 +239,7 @@
     "name": "Annie",
     "title": "the Dark Child",
     "tags": [
-      "Mage",
-      "Support"
-    ],
-    "positions": [
-      "Mid",
-      "Support"
+      "Mage"
     ],
     "stats": {
       "hp": 524,
@@ -304,9 +278,6 @@
     "title": "the Weapon of the Faithful",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 530,
@@ -347,10 +318,6 @@
       "Marksman",
       "Support"
     ],
-    "positions": [
-      "ADC",
-      "Support"
-    ],
     "stats": {
       "hp": 570,
       "hpperlevel": 87,
@@ -388,10 +355,6 @@
     "title": "The Star Forger",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid",
-      "Top"
     ],
     "stats": {
       "hp": 575,
@@ -432,9 +395,6 @@
       "Mage",
       "Marksman"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 552,
       "hpperlevel": 92,
@@ -471,11 +431,8 @@
     "name": "Bard",
     "title": "the Wandering Caretaker",
     "tags": [
-      "Support"
-    ],
-    "positions": [
       "Support",
-      "ADC"
+      "Mage"
     ],
     "stats": {
       "hp": 560,
@@ -516,9 +473,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 582.6,
       "hpperlevel": 95,
@@ -556,10 +510,6 @@
     "title": "the Burning Vengeance",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid",
-      "Support"
     ],
     "stats": {
       "hp": 519.68,
@@ -600,9 +550,6 @@
       "Support",
       "Tank"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 540,
       "hpperlevel": 98,
@@ -640,9 +587,6 @@
     "title": "the Sheriff of Piltover",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 510,
@@ -683,10 +627,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 575.6,
       "hpperlevel": 85,
@@ -724,9 +664,6 @@
     "title": "the Serpent's Embrace",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 560,
@@ -767,10 +704,6 @@
       "Tank",
       "Mage"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 574.4,
       "hpperlevel": 80,
@@ -808,10 +741,6 @@
     "title": "the Daring Bombardier",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC",
-      "Mid"
     ],
     "stats": {
       "hp": 518,
@@ -852,9 +781,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 582.24,
       "hpperlevel": 100,
@@ -894,11 +820,6 @@
       "Fighter",
       "Mage"
     ],
-    "positions": [
-      "Mid",
-      "Jungle",
-      "Top"
-    ],
     "stats": {
       "hp": 570,
       "hpperlevel": 95,
@@ -936,9 +857,6 @@
     "title": "the Glorious Executioner",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 605,
@@ -979,10 +897,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top",
-      "Jungle"
-    ],
     "stats": {
       "hp": 582.52,
       "hpperlevel": 89,
@@ -1021,10 +935,6 @@
     "tags": [
       "Assassin",
       "Fighter"
-    ],
-    "positions": [
-      "Mid",
-      "Jungle"
     ],
     "stats": {
       "hp": 585,
@@ -1065,9 +975,6 @@
       "Mage",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 534,
       "hpperlevel": 93,
@@ -1106,9 +1013,6 @@
     "tags": [
       "Assassin",
       "Mage"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 572,
@@ -1149,10 +1053,6 @@
       "Marksman",
       "Mage"
     ],
-    "positions": [
-      "ADC",
-      "Mid"
-    ],
     "stats": {
       "hp": 530,
       "hpperlevel": 88,
@@ -1191,11 +1091,6 @@
     "tags": [
       "Mage",
       "Support"
-    ],
-    "positions": [
-      "Jungle",
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 580.4,
@@ -1236,9 +1131,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 550,
       "hpperlevel": 85,
@@ -1277,9 +1169,6 @@
     "tags": [
       "Assassin",
       "Fighter"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 570,
@@ -1320,11 +1209,6 @@
       "Tank",
       "Mage"
     ],
-    "positions": [
-      "Mid",
-      "Support",
-      "Top"
-    ],
     "stats": {
       "hp": 562,
       "hpperlevel": 112,
@@ -1362,9 +1246,6 @@
     "title": "the Saltwater Scourge",
     "tags": [
       "Fighter"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 540,
@@ -1405,9 +1286,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 620,
       "hpperlevel": 84,
@@ -1446,9 +1324,6 @@
     "tags": [
       "Fighter",
       "Tank"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 510,
@@ -1489,11 +1364,6 @@
       "Fighter",
       "Mage"
     ],
-    "positions": [
-      "Jungle",
-      "Mid",
-      "Top"
-    ],
     "stats": {
       "hp": 600,
       "hpperlevel": 95,
@@ -1531,9 +1401,6 @@
     "title": "the Outlaw",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 555,
@@ -1574,9 +1441,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 580,
       "hpperlevel": 90,
@@ -1615,11 +1479,6 @@
     "tags": [
       "Mage",
       "Support"
-    ],
-    "positions": [
-      "Top",
-      "Mid",
-      "ADC"
     ],
     "stats": {
       "hp": 488,
@@ -1660,9 +1519,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 585.6,
       "hpperlevel": 95,
@@ -1701,9 +1557,6 @@
     "tags": [
       "Fighter",
       "Assassin"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 580,
@@ -1744,9 +1597,6 @@
       "Support",
       "Mage"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 585,
       "hpperlevel": 95,
@@ -1785,9 +1635,6 @@
     "tags": [
       "Support",
       "Mage"
-    ],
-    "positions": [
-      "Support"
     ],
     "stats": {
       "hp": 500,
@@ -1828,9 +1675,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 570,
       "hpperlevel": 90,
@@ -1869,9 +1713,6 @@
     "tags": [
       "Fighter",
       "Assassin"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 592.8,
@@ -1912,10 +1753,6 @@
       "Fighter",
       "Marksman"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 560,
       "hpperlevel": 90,
@@ -1955,9 +1792,6 @@
       "Marksman",
       "Mage"
     ],
-    "positions": [
-      "ADC"
-    ],
     "stats": {
       "hp": 585,
       "hpperlevel": 93,
@@ -1995,9 +1829,6 @@
     "title": "the Loose Cannon",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 610,
@@ -2037,9 +1868,6 @@
     "tags": [
       "Marksman"
     ],
-    "positions": [
-      "ADC"
-    ],
     "stats": {
       "hp": 600,
       "hpperlevel": 88,
@@ -2077,9 +1905,6 @@
     "title": "the Spear of Vengeance",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 534,
@@ -2120,9 +1945,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 534,
       "hpperlevel": 95,
@@ -2160,11 +1982,6 @@
     "title": "the Deathsinger",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Jungle",
-      "ADC",
-      "Mid"
     ],
     "stats": {
       "hp": 550,
@@ -2205,9 +2022,6 @@
       "Assassin",
       "Mage"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 576,
       "hpperlevel": 90,
@@ -2246,9 +2060,6 @@
     "tags": [
       "Assassin",
       "Mage"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 602,
@@ -2289,10 +2100,6 @@
       "Fighter",
       "Support"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 600,
       "hpperlevel": 85,
@@ -2331,11 +2138,6 @@
     "tags": [
       "Fighter",
       "Assassin"
-    ],
-    "positions": [
-      "Jungle",
-      "Top",
-      "Mid"
     ],
     "stats": {
       "hp": 585,
@@ -2376,9 +2178,6 @@
       "Mage",
       "Marksman"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 541,
       "hpperlevel": 84,
@@ -2417,9 +2216,6 @@
     "tags": [
       "Assassin"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 572.8,
       "hpperlevel": 85,
@@ -2457,9 +2253,6 @@
     "title": "The Eternal Hunters",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 540,
@@ -2500,9 +2293,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 340,
       "hpperlevel": 70,
@@ -2541,9 +2331,6 @@
     "tags": [
       "Marksman",
       "Mage"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 565,
@@ -2584,9 +2371,6 @@
       "Assassin",
       "Mage"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 528,
       "hpperlevel": 92,
@@ -2626,9 +2410,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 575,
       "hpperlevel": 85,
@@ -2666,9 +2447,6 @@
     "title": "the Radiant Dawn",
     "tags": [
       "Tank",
-      "Support"
-    ],
-    "positions": [
       "Support"
     ],
     "stats": {
@@ -2710,9 +2488,6 @@
       "Fighter",
       "Mage"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 580,
       "hpperlevel": 90,
@@ -2751,10 +2526,6 @@
     "tags": [
       "Mage"
     ],
-    "positions": [
-      "Mid",
-      "Support"
-    ],
     "stats": {
       "hp": 550,
       "hpperlevel": 90,
@@ -2792,10 +2563,6 @@
     "title": "the Purifier",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC",
-      "Mid"
     ],
     "stats": {
       "hp": 571,
@@ -2836,11 +2603,6 @@
       "Support",
       "Mage"
     ],
-    "positions": [
-      "Support",
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 525,
       "hpperlevel": 74,
@@ -2879,10 +2641,6 @@
     "tags": [
       "Mage",
       "Support"
-    ],
-    "positions": [
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 490,
@@ -2923,10 +2681,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 575,
       "hpperlevel": 90,
@@ -2965,9 +2719,6 @@
     "tags": [
       "Mage",
       "Assassin"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 537,
@@ -3008,10 +2759,6 @@
       "Tank",
       "Mage"
     ],
-    "positions": [
-      "Top",
-      "Support"
-    ],
     "stats": {
       "hp": 565,
       "hpperlevel": 95,
@@ -3051,9 +2798,6 @@
       "Assassin",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 598.56,
       "hpperlevel": 92,
@@ -3092,10 +2836,6 @@
     "tags": [
       "Marksman"
     ],
-    "positions": [
-      "ADC",
-      "Mid"
-    ],
     "stats": {
       "hp": 570,
       "hpperlevel": 93,
@@ -3127,18 +2867,13 @@
     "description": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally..."
   },
   {
-    "id": "wukong",
+    "id": "monkeyking",
     "key": "62",
     "name": "Wukong",
     "title": "the Monkey King",
     "tags": [
       "Fighter",
       "Tank"
-    ],
-    "positions": [
-      "Top",
-      "Jungle",
-      "Mid"
     ],
     "stats": {
       "hp": 540,
@@ -3177,9 +2912,6 @@
     "title": "the Iron Revenant",
     "tags": [
       "Fighter"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 575,
@@ -3220,10 +2952,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Support",
-      "Mid"
-    ],
     "stats": {
       "hp": 560,
       "hpperlevel": 90,
@@ -3262,9 +2990,6 @@
     "tags": [
       "Support",
       "Mage"
-    ],
-    "positions": [
-      "Support"
     ],
     "stats": {
       "hp": 475,
@@ -3305,9 +3030,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 561.2,
       "hpperlevel": 90,
@@ -3346,10 +3068,6 @@
     "tags": [
       "Tank",
       "Fighter"
-    ],
-    "positions": [
-      "Support",
-      "Jungle"
     ],
     "stats": {
       "hp": 576.48,
@@ -3390,10 +3108,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Mid",
-      "Top"
-    ],
     "stats": {
       "hp": 540,
       "hpperlevel": 90,
@@ -3432,9 +3146,6 @@
     "tags": [
       "Assassin",
       "Mage"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 545,
@@ -3475,9 +3186,6 @@
       "Assassin",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 585,
       "hpperlevel": 85,
@@ -3516,9 +3224,6 @@
     "tags": [
       "Tank",
       "Fighter"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 570,
@@ -3559,10 +3264,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle",
-      "Top"
-    ],
     "stats": {
       "hp": 597.24,
       "hpperlevel": 93,
@@ -3600,10 +3301,6 @@
     "title": "the Lady of Clockwork",
     "tags": [
       "Mage",
-      "Support"
-    ],
-    "positions": [
-      "Mid",
       "Support"
     ],
     "stats": {
@@ -3645,9 +3342,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 590,
       "hpperlevel": 95,
@@ -3686,10 +3380,6 @@
     "tags": [
       "Fighter",
       "Assassin"
-    ],
-    "positions": [
-      "Top",
-      "Support"
     ],
     "stats": {
       "hp": 580,
@@ -3730,9 +3420,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 540,
       "hpperlevel": 90,
@@ -3771,10 +3458,6 @@
     "tags": [
       "Support",
       "Assassin"
-    ],
-    "positions": [
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 600,
@@ -3815,9 +3498,6 @@
       "Assassin",
       "Fighter"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 590,
       "hpperlevel": 90,
@@ -3857,11 +3537,6 @@
       "Marksman",
       "Assassin"
     ],
-    "positions": [
-      "Top",
-      "Mid",
-      "ADC"
-    ],
     "stats": {
       "hp": 532.8,
       "hpperlevel": 85,
@@ -3898,9 +3573,6 @@
     "name": "Rakan",
     "title": "The Charmer",
     "tags": [
-      "Support"
-    ],
-    "positions": [
       "Support"
     ],
     "stats": {
@@ -3942,9 +3614,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 564.48,
       "hpperlevel": 95,
@@ -3982,9 +3651,6 @@
     "title": "the Void Burrower",
     "tags": [
       "Fighter"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 570,
@@ -4025,9 +3691,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 575,
       "hpperlevel": 87,
@@ -4066,9 +3729,6 @@
     "tags": [
       "Assassin",
       "Fighter"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 585,
@@ -4109,9 +3769,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 560,
       "hpperlevel": 86,
@@ -4150,9 +3807,6 @@
     "tags": [
       "Fighter",
       "Mage"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 589,
@@ -4193,10 +3847,6 @@
       "Mage",
       "Fighter"
     ],
-    "positions": [
-      "Mid",
-      "Top"
-    ],
     "stats": {
       "hp": 575,
       "hpperlevel": 98,
@@ -4234,9 +3884,6 @@
     "title": "the Desert Rose",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 530,
@@ -4277,9 +3924,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 560,
       "hpperlevel": 100,
@@ -4319,10 +3963,6 @@
       "Marksman",
       "Support"
     ],
-    "positions": [
-      "Support",
-      "ADC"
-    ],
     "stats": {
       "hp": 520,
       "hpperlevel": 75,
@@ -4360,10 +4000,6 @@
     "title": "the Starry-Eyed Songstress",
     "tags": [
       "Mage",
-      "Support"
-    ],
-    "positions": [
-      "Mid",
       "Support"
     ],
     "stats": {
@@ -4405,10 +4041,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top",
-      "Jungle"
-    ],
     "stats": {
       "hp": 600,
       "hpperlevel": 93,
@@ -4447,10 +4079,6 @@
     "tags": [
       "Assassin"
     ],
-    "positions": [
-      "Jungle",
-      "Support"
-    ],
     "stats": {
       "hp": 587,
       "hpperlevel": 89,
@@ -4488,10 +4116,6 @@
     "title": "the Eye of Twilight",
     "tags": [
       "Tank"
-    ],
-    "positions": [
-      "Top",
-      "Support"
     ],
     "stats": {
       "hp": 540,
@@ -4532,9 +4156,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 595,
       "hpperlevel": 95,
@@ -4573,9 +4194,6 @@
     "tags": [
       "Tank",
       "Fighter"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 580,
@@ -4616,10 +4234,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Top",
-      "Jungle"
-    ],
     "stats": {
       "hp": 545,
       "hpperlevel": 73,
@@ -4657,9 +4271,6 @@
     "title": "the Battle Mistress",
     "tags": [
       "Marksman"
-    ],
-    "positions": [
-      "ADC"
     ],
     "stats": {
       "hp": 562,
@@ -4700,9 +4311,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 601.28,
       "hpperlevel": 90,
@@ -4741,10 +4349,6 @@
     "tags": [
       "Support",
       "Mage"
-    ],
-    "positions": [
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 480,
@@ -4785,9 +4389,6 @@
       "Support",
       "Mage"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 535,
       "hpperlevel": 74,
@@ -4826,12 +4427,6 @@
     "tags": [
       "Mage",
       "Fighter"
-    ],
-    "positions": [
-      "Support",
-      "ADC",
-      "Mid",
-      "Top"
     ],
     "stats": {
       "hp": 525,
@@ -4872,9 +4467,6 @@
       "Mage",
       "Assassin"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 525,
       "hpperlevel": 115,
@@ -4913,9 +4505,6 @@
     "tags": [
       "Mage",
       "Support"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 523,
@@ -4956,10 +4545,6 @@
       "Support",
       "Tank"
     ],
-    "positions": [
-      "Top",
-      "Support"
-    ],
     "stats": {
       "hp": 600,
       "hpperlevel": 100,
@@ -4999,9 +4584,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 532,
       "hpperlevel": 90,
@@ -5039,9 +4621,6 @@
     "title": "the Blade's Shadow",
     "tags": [
       "Assassin"
-    ],
-    "positions": [
-      "Mid"
     ],
     "stats": {
       "hp": 588,
@@ -5082,10 +4661,6 @@
       "Support",
       "Fighter"
     ],
-    "positions": [
-      "Support",
-      "Mid"
-    ],
     "stats": {
       "hp": 575,
       "hpperlevel": 85,
@@ -5124,10 +4699,6 @@
     "tags": [
       "Marksman",
       "Assassin"
-    ],
-    "positions": [
-      "Top",
-      "Mid"
     ],
     "stats": {
       "hp": 528,
@@ -5168,9 +4739,6 @@
       "Support",
       "Fighter"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 560.52,
       "hpperlevel": 93,
@@ -5209,10 +4777,6 @@
     "tags": [
       "Marksman",
       "Assassin"
-    ],
-    "positions": [
-      "ADC",
-      "Mid"
     ],
     "stats": {
       "hp": 559,
@@ -5253,10 +4817,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle",
-      "Top"
-    ],
     "stats": {
       "hp": 616,
       "hpperlevel": 96,
@@ -5296,10 +4856,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Top",
-      "Mid"
-    ],
     "stats": {
       "hp": 625.64,
       "hpperlevel": 98,
@@ -5337,10 +4893,6 @@
     "title": "the Card Master",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid",
-      "Support"
     ],
     "stats": {
       "hp": 534,
@@ -5381,10 +4933,6 @@
       "Marksman",
       "Assassin"
     ],
-    "positions": [
-      "ADC",
-      "Jungle"
-    ],
     "stats": {
       "hp": 612,
       "hpperlevel": 86,
@@ -5423,9 +4971,6 @@
     "tags": [
       "Fighter",
       "Tank"
-    ],
-    "positions": [
-      "Jungle"
     ],
     "stats": {
       "hp": 594,
@@ -5466,9 +5011,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top"
-    ],
     "stats": {
       "hp": 585,
       "hpperlevel": 88,
@@ -5507,10 +5049,6 @@
     "tags": [
       "Marksman",
       "Mage"
-    ],
-    "positions": [
-      "ADC",
-      "Mid"
     ],
     "stats": {
       "hp": 530,
@@ -5551,10 +5089,6 @@
       "Marksman",
       "Assassin"
     ],
-    "positions": [
-      "ADC",
-      "Top"
-    ],
     "stats": {
       "hp": 515,
       "hpperlevel": 89,
@@ -5593,10 +5127,6 @@
     "tags": [
       "Mage"
     ],
-    "positions": [
-      "Mid",
-      "ADC"
-    ],
     "stats": {
       "hp": 505,
       "hpperlevel": 94,
@@ -5634,10 +5164,6 @@
     "title": "the Eye of the Void",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 520,
@@ -5678,9 +5204,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 585,
       "hpperlevel": 85,
@@ -5719,9 +5242,6 @@
     "tags": [
       "Mage"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 530,
       "hpperlevel": 90,
@@ -5759,9 +5279,6 @@
     "title": "the Crimson Reaper",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 537,
@@ -5802,10 +5319,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Top",
-      "Jungle"
-    ],
     "stats": {
       "hp": 580,
       "hpperlevel": 90,
@@ -5845,10 +5358,6 @@
       "Fighter",
       "Tank"
     ],
-    "positions": [
-      "Jungle",
-      "Top"
-    ],
     "stats": {
       "hp": 550,
       "hpperlevel": 85,
@@ -5887,9 +5396,6 @@
     "tags": [
       "Marksman"
     ],
-    "positions": [
-      "ADC"
-    ],
     "stats": {
       "hp": 590,
       "hpperlevel": 88,
@@ -5927,10 +5433,6 @@
     "title": "the Magus Ascendant",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid",
-      "Support"
     ],
     "stats": {
       "hp": 526,
@@ -5971,9 +5473,6 @@
       "Fighter",
       "Assassin"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 570,
       "hpperlevel": 92,
@@ -6012,10 +5511,6 @@
     "tags": [
       "Fighter",
       "Assassin"
-    ],
-    "positions": [
-      "Mid",
-      "ADC"
     ],
     "stats": {
       "hp": 490,
@@ -6056,9 +5551,6 @@
       "Assassin",
       "Fighter"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 550,
       "hpperlevel": 85,
@@ -6097,9 +5589,6 @@
     "tags": [
       "Fighter",
       "Tank"
-    ],
-    "positions": [
-      "Top"
     ],
     "stats": {
       "hp": 580,
@@ -6140,9 +5629,6 @@
       "Support",
       "Mage"
     ],
-    "positions": [
-      "Support"
-    ],
     "stats": {
       "hp": 480,
       "hpperlevel": 70,
@@ -6182,9 +5668,6 @@
       "Tank",
       "Fighter"
     ],
-    "positions": [
-      "Jungle"
-    ],
     "stats": {
       "hp": 615,
       "hpperlevel": 95,
@@ -6223,9 +5706,6 @@
     "tags": [
       "Assassin"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 584,
       "hpperlevel": 85,
@@ -6263,11 +5743,6 @@
     "title": "the Hexplosives Expert",
     "tags": [
       "Mage"
-    ],
-    "positions": [
-      "Mid",
-      "ADC",
-      "Support"
     ],
     "stats": {
       "hp": 536,
@@ -6308,10 +5783,6 @@
       "Support",
       "Mage"
     ],
-    "positions": [
-      "Support",
-      "Mid"
-    ],
     "stats": {
       "hp": 504,
       "hpperlevel": 82,
@@ -6351,9 +5822,6 @@
       "Mage",
       "Support"
     ],
-    "positions": [
-      "Mid"
-    ],
     "stats": {
       "hp": 560,
       "hpperlevel": 92,
@@ -6392,10 +5860,6 @@
     "tags": [
       "Mage",
       "Support"
-    ],
-    "positions": [
-      "Support",
-      "Mid"
     ],
     "stats": {
       "hp": 504,
