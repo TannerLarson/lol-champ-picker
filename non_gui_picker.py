@@ -1,11 +1,11 @@
 import json
+import signal
+import sys
 import copy
 
 # TODO: Fix role specificity like how Shaco only goes AP when he supports
 # TODO: Add GUI
 # TODO: Add i_am_good_at to roles.json
-# TODO: Add chestAcquired to roles.json
-# TODO: Add bruiser and enchanter to function in roles.json
 # TODO: Allow selection of multiple sub-categories
 
 def main():
@@ -172,5 +172,14 @@ def get_search_criteria():
     return search_criteria
 
 
+def exit_gracefully():
+    print()
+    print("Exiting...")
+    sys.exit(1)
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        exit_gracefully()
