@@ -11,6 +11,10 @@ def main():
     champ_dict = make_nice_dictionary_by_name(champions_json)
     champions_organized_json = json.dumps(champ_dict)
     export_dictionary(champions_organized_json, "champions-dict.json")
+    l = []
+    for name in champ_dict:
+        l.append(name)
+    print(l)
 
 
 def export_dictionary(dict_to_export, file_to_write):

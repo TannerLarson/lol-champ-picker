@@ -1,8 +1,12 @@
 import json
+import copy
 
 # TODO: Fix role specificity like how Shaco only goes AP when he supports
 # TODO: Add GUI
-# TODO: add isCarry to roles.json
+# TODO: Add isCarry to roles.json
+# TODO: Add chestAcquired to roles.json
+# TODO: Add bruiser and enchanter to function in roles.json
+# TODO: Allow selection of multiple sub-categories
 
 def main():
     search_criteria = None
@@ -24,14 +28,16 @@ def main():
         },
         "4": {
             "1": 'burst',
-            "2": 'dps'
+            "2": 'dps',
+            "3": 'bruiser',
+            "4": 'utility'
         }
     }
     while not criteria_is_valid(search_criteria):
-        print("1: Lanes\n\t1: Top\n\t2. Mid\n\t3. Jungle\n\t4. ADC\n\t5. Support")
-        print("2. Damage Type\n\t1. AD\n\t2. AP")
-        print("3. Tankiness\n\t1. Very Tanky\n\t2. Bruiser")
-        print("4. Burst / DpS\n\t1. Burst\n\t2. DpS")
+        print("1: Lanes\n\t11: Top\n\t12. Mid\n\t13. Jungle\n\t14. ADC\n\t15. Support")
+        print("2. Damage Type\n\t21. AD\n\t22. AP")
+        print("3. Tankiness\n\t31. Very Tanky\n\t32. Bruiser")
+        print("4. Funcionality\n\t41. Burst\n\t42. DpS\n\t43. Bruiser\n\t44. Utility")
 
         # Get search criteria
         search_criteria = get_search_criteria()
@@ -46,7 +52,7 @@ def main():
         elif search[0] == '3':
             results = roles['tankiness'][options['3'][search[1]]]
         elif search[0] == '4':
-            results = roles['carryType'][options['4'][search[1]]]
+            results = roles['function'][options['4'][search[1]]]
 
         if filtered_champions is None:
             filtered_champions = results
@@ -58,11 +64,11 @@ def get_shared_values(listA, listB):
     listA.sort()
     listB.sort()
     if min(listA[0], listB[0]) == listA[0]:
-        first = listA
-        second = listB
+        first = copy.deepcopy(listA)
+        second = copy.deepcopy(listB)
     else:
-        first = listB
-        second = listA
+        first = copy.deepcopy(listB)
+        second = copy.deepcopy(listA)
     i = 0 # Follows first
     j = 0 # Follows second
     while i < len(first) and j < len(second):
@@ -81,6 +87,19 @@ def get_shared_values(listA, listB):
     else:
         return second
 
+def get_different_values(listA, listB):
+    diff = listA + listB
+    num_occurances = {}
+    for element in diff:
+        if element not in num_occurances:
+            num_occurances[element] = 1
+        else:
+            num_occurances[element] += 1
+    for key, value in num_occurances.items():
+        if value > 1:
+            while key in diff:
+                diff.remove(key)
+    return diff
 
 def get_roles():
     roles_files = champions_file = open("/Users/tannerlarson/Code/lol-champ-picker/roles.json", 'r').read()
@@ -88,26 +107,29 @@ def get_roles():
 
 
 def criteria_is_valid(criteria):
-    filters_used = set()
     if criteria is None:
         return False
     for c in criteria:
-        print(c)
-        # Ensure only one of each filter is used
-        if c[0] in filters_used:
-            return False
-        filters_used.add(c[0])
-
+        subcategory = int(c[1])
         # Check filter category is good
         if not 0 < int(c[0]) < 5:
             return False
-        # Check damage type, tankiness, and burst/dps is good
-        if c[0] != '1' and not 0 < int(c[1]) < 3:
+        # Lane
+        if c[0] == '1' and not is_between(0, subcategory, 6):
             return False
-        # Check lanes is good
-        if c[0] == '1' and not 0 < int(c[1]) < 6:
+        # Damage type
+        if c[0] == '2' and not is_between(0, subcategory, 3):
+            return False
+        # Tankiness
+        if c[0] == '3' and not is_between(0, subcategory, 3):
+            return False
+        # Functionality
+        if c[0] == '4' and not is_between(0, subcategory, 5):
             return False
     return True
+
+def is_between(left, middle, right):
+    return left < middle < right
 
 
 def get_search_criteria():
