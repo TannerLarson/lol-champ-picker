@@ -3,6 +3,7 @@ import copy
 
 # TODO: Fix role specificity like how Shaco only goes AP when he supports
 # TODO: Add GUI
+# TODO: Add i_am_good_at to roles.json
 # TODO: Add chestAcquired to roles.json
 # TODO: Add bruiser and enchanter to function in roles.json
 # TODO: Allow selection of multiple sub-categories
@@ -30,6 +31,10 @@ def main():
             "2": 'dps',
             "3": 'bruiser',
             "4": 'utility'
+        },
+        "5": {
+            "1": 'chest_acquired',
+            "2": 'chest_acquired'
         }
     }
     while not criteria_is_valid(search_criteria):
@@ -37,6 +42,7 @@ def main():
         print("2. Damage Type\n\t21. AD\n\t22. AP")
         print("3. Tankiness\n\t31. Very Tanky\n\t32. Bruiser")
         print("4. Funcionality\n\t41. Burst\n\t42. DpS\n\t43. Bruiser\n\t44. Utility")
+        print("5. Chest Acquired\n\t51. Yes\n\t52. No")
 
         # Get search criteria
         search_criteria = get_search_criteria()
@@ -58,6 +64,13 @@ def get_filtered_champions(search_criteria, roles, options):
             results = roles['tankiness'][options['3'][search[1]]]
         elif search[0] == '4':
             results = roles['function'][options['4'][search[1]]]
+        elif search[0] == '5':
+            # chest is NOT acquired
+            if search[1] == '2':
+                results = get_different_values(roles['all_champs'], roles["chest_acquired"])
+            # chest is acquired
+            else:
+                results = roles['chest_acquired']
 
         if filtered_champions is None:
             filtered_champions = results
@@ -118,7 +131,7 @@ def criteria_is_valid(criteria):
     for c in criteria:
         subcategory = int(c[1])
         # Check filter category is good
-        if not 0 < int(c[0]) < 5:
+        if not 0 < int(c[0]) < 6:
             return False
         # Lane
         if c[0] == '1' and not is_between(0, subcategory, 6):
@@ -131,6 +144,9 @@ def criteria_is_valid(criteria):
             return False
         # Functionality
         if c[0] == '4' and not is_between(0, subcategory, 5):
+            return False
+        # Chest Acquired
+        if c[0] == '5' and not is_between(0, subcategory, 3):
             return False
     return True
 
@@ -154,6 +170,7 @@ def get_search_criteria():
     split_length = 2
     search_criteria = [search_criteria[i:i+split_length] for i in range(0, len(search_criteria), split_length)]
     return search_criteria
+
 
 if __name__ == "__main__":
     main()

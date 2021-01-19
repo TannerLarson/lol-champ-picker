@@ -1,4 +1,9 @@
 {
+  "chest_acquired": [
+    "warwick",
+    "volibear",
+    "diana"
+  ],
   "lane": {
     "top": [
       "aatrox",
@@ -632,11 +637,6 @@
       "zed"
     ]
   },
-  "chest_aquired": [
-    "warwick",
-    "volibear",
-    "diana"
-  ],
   "all_champs": [
     "aatrox",
     "ahri",
