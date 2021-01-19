@@ -632,6 +632,11 @@
       "zed"
     ]
   },
+  "chest_aquired": [
+    "warwick",
+    "volibear",
+    "diana"
+  ],
   "all_champs": [
     "aatrox",
     "ahri",

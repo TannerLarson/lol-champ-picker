@@ -3,7 +3,6 @@ import copy
 
 # TODO: Fix role specificity like how Shaco only goes AP when he supports
 # TODO: Add GUI
-# TODO: Add isCarry to roles.json
 # TODO: Add chestAcquired to roles.json
 # TODO: Add bruiser and enchanter to function in roles.json
 # TODO: Allow selection of multiple sub-categories
@@ -43,6 +42,12 @@ def main():
         search_criteria = get_search_criteria()
 
     roles = get_roles()
+    filtered_champions = get_filtered_champions(search_criteria, roles, options)
+    print("Options:")
+    for champ in filtered_champions:
+        print(champ)
+
+def get_filtered_champions(search_criteria, roles, options):
     filtered_champions = None
     for search in search_criteria:
         if search[0] == '1':
@@ -58,7 +63,8 @@ def main():
             filtered_champions = results
         else:
             filtered_champions = get_shared_values(filtered_champions, results)
-    print(filtered_champions)
+
+    return filtered_champions
 
 def get_shared_values(listA, listB):
     listA.sort()
