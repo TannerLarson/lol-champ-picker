@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Lol Champion Picker"
+version = "0.1.0"
+description = "Helps summoners decide which champion to pick in champ select"
+authors = ["Tanner Larson"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+Flask = "^1.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

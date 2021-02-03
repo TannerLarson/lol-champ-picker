@@ -1,15 +1,7 @@
-import sys
-from PySide6.QtWidgets import QApplication
-from PySide6.QtQuick import QQuickView
-from PySide6.QtCore import QUrl
+from flask import Flask
 
-app = QApplication(sys.argv)
-view = QQuickView()
-url = QUrl("view.qml")
+app = Flask(__name__)
 
-print("hello")
-view.setSource(url)
-view.show()
-print("hello")
-app.exec_()
-print("hello")
+@app.route('/')
+def hello_world():
+    return "Hello wazowski"

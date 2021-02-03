@@ -2,7 +2,8 @@
   "chest_acquired": [
     "warwick",
     "volibear",
-    "diana"
+    "diana",
+    "viego"
   ],
   "lane": {
     "top": [
@@ -56,6 +57,7 @@
       "tryndamere",
       "urgot",
       "vayne",
+      "viego",
       "vladimir",
       "volibear",
       "warwick",
@@ -118,6 +120,7 @@
       "varus",
       "veigar",
       "velkoz",
+      "viego",
       "viktor",
       "xerath",
       "yasuo",
@@ -168,6 +171,7 @@
       "twitch",
       "udyr",
       "vi",
+      "viego",
       "volibear",
       "warwick",
       "xinzhao",
@@ -349,6 +353,7 @@
       "shyvana",
       "sona",
       "syndra",
+      "taliyah",
       "talon",
       "twistedfate",
       "veigar",
@@ -404,7 +409,6 @@
       "shaco",
       "sivir",
       "sylas",
-      "taliyah",
       "teemo",
       "tristana",
       "tryndamere",
@@ -412,6 +416,7 @@
       "twitch",
       "varus",
       "vayne",
+      "viego",
       "xayah",
       "xinzhao",
       "yasuo",
@@ -627,6 +632,7 @@
       "varus",
       "vayne",
       "vi",
+      "viego",
       "volibear",
       "warwick",
       "xayah",
@@ -773,6 +779,7 @@
     "veigar",
     "velkoz",
     "vi",
+    "viego",
     "viktor",
     "vladimir",
     "volibear",
